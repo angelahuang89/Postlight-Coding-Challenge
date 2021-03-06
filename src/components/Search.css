@@ -1,0 +1,26 @@
+.search-employees {
+  display: flex;
+  justify-content: flex-end;
+  width: 95%;
+  padding: 5px 15px 10px 15px;
+}
+
+.search-input {
+  width: 40%;
+  height: 25px;
+  border-width: 1px;
+  border-radius: 5px 0 0 5px;
+  border-right: none;
+  padding-left: 5px;
+}
+
+.search-input:focus, .search-button:focus {
+  outline-color: #6495ED;
+}
+
+.search-button {
+  padding-left: 5px;
+  width: 8%;
+  border-width: 1px;
+  border-radius: 0 5px 5px 0;
+}

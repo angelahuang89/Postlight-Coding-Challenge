@@ -1,0 +1,31 @@
+.pagination-wrapper {
+  display: flex;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+.pagination-control {
+  padding: 0 20px;
+  border: none;
+  background-color: #FFFFFF;
+  height: 20px;
+  font-weight: bold;
+}
+
+.pagination-page {
+  padding: 0 5px;
+}
+
+.pagination-control:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.pagination-control:disabled {
+  cursor: not-allowed;
+  text-decoration: none;
+}
+
+.pagination-control:focus {
+  outline-color: #6495ED;
+}

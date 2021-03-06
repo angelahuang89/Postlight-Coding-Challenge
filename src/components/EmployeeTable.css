@@ -1,0 +1,41 @@
+table, thead, tr {
+  border-collapse: collapse;
+  width: 95%;
+}
+
+.directory-table-header {
+  text-align: left;
+  border-bottom: solid 1px #000000;
+}
+
+.sortable:hover {
+  cursor: pointer;
+}
+
+th {
+  padding: 5px;
+}
+
+td {
+  padding: 2px 5px;
+}
+
+.name-cell, .phone-number-cell {
+  width: 15%;
+}
+
+.picture-cell {
+  width: 5%;
+}
+
+.title-cell {
+  width: 20%;
+}
+
+.department-cell, .location-cell {
+  width: 10%;
+}
+
+.email-cell {
+  width: 25%;
+}
