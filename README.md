@@ -1,4 +1,27 @@
-# Getting Started with Create React App
+# Postlight Coding Challenge
+
+View the employee directory by page and search for employees.
+
+## Usage
+
+These instructions will get you a copy of this project on your local machine up and running for development and testing purposes.
+
+### Installation Overview
+
+1. git clone
+1. npm install
+1. npm run dev
+1. Visit [http://localhost:3000](http://localhost:3000) in your browser.
+
+### Notes
+
+To only run the server:
+
+- npm run server
+
+This project was created with Create React App and express. User data is generated with the Random User Generator API. Random employee information is added to each user since the API does not include employee fields. The app supports pagination by fetching pages next or previous to the current page. The app also supports searching the user list on the front end.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
